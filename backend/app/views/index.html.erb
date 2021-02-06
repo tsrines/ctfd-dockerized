@@ -1,0 +1,7 @@
+ <div class="dropzone dropzone-default dz-clickable" data-controller="dropzone" data-dropzone-max-file-size="5" data-dropzone-accepted-files="text/csv">
+   <%= form.file_field :file, direct_upload: true, data: { target: 'dropzone.input' } %>
+   <div class="dropzone-msg dz-message needsclick">
+     <h3 class="dropzone-msg-title">Solte o arquivo aqui ou clique para fazer o upload.</h3>
+     <span class="dropzone-msg-desc">Use os templates abaixo para criar o arquivo, o tamanho maximo é de 5 MiB.</span>
+   </div>
+</div>

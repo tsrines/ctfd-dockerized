@@ -1,0 +1,46 @@
+{
+  "name": "face-blogger",
+  "version": "0.1.0",
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "activestorage": "^5.2.4-4",
+    "axios": "^0.20.0",
+    "dropzone": "^5.7.2",
+    "history": "^4.10.1",
+    "react": "^17.0.0",
+    "react-activestorage-provider": "^0.8.0",
+    "react-dom": "^17.0.0",
+    "react-hook-form": "^6.9.5",
+    "react-image-picker": "^1.1.1",
+    "react-markdown": "^5.0.3",
+    "react-mde": "^11.0.6",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.4",
+    "react-syntax-highlighter": "^15.4.3",
+    "remark-gfm": "^1.0.0",
+    "rxjs": "^6.6.3",
+    "stimulus": "^2.0.0"
+  },
+  "scripts": {
+    "start": "PORT=3001 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
